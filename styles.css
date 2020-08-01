@@ -1,7 +1,12 @@
-text{
+
+/* this is actually fucking retarded */
+p{
     font-family: "Montserrat", "sans-serif";
 }
 
+h2{
+    font-family: "Montserrat", "sans-serif"
+}
 
 * {
     box-sizing: border-box;
