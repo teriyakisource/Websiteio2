@@ -1,11 +1,22 @@
+body
+{
+    font-weight: 500;
 
-/* this is actually fucking retarded */
+    font-family: "Montseratt", "sans-serif";
+}
+
 p{
     font-family: "Montserrat", "sans-serif";
 }
 
 h2{
     font-family: "Montserrat", "sans-serif"
+}
+
+#mainBody{
+
+    padding: 35px;
+    margin: 10px;
 }
 
 * {
@@ -24,6 +35,11 @@ header {
 
 .logo {
     margin-right: auto;
+    font-family: "Montseratt", sans-serif;
+    color: #edf0f1;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 .nav__links {
@@ -136,4 +152,26 @@ header {
     .menu {
         display: initial;
     }
+}
+
+
+.nicebuttonli
+{
+    text-align: center;
+    margin-left: 10px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+.nicebuttonli:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
